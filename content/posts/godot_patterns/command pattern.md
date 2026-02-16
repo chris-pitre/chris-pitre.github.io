@@ -5,7 +5,11 @@ tags:
   - godot
 ---
 # Introduction
-Out of all of the original GoF's design patterns, I feel like the most suitable one for game development is the **Command** pattern. I think a major problem with a lot of design patterns is that when used by a naïve developer, they end up being an overused tool fixing a lot of problems that at best, don't necessarily need use of the pattern to solve, or at worst end up creating more problems down the line.
+Out of all of the original GoF's design patterns, I feel like the most suitable one for game development is the **Command** pattern. I think a major problem with a lot of design patterns is that when used by a naïve developer, they end up being an overused tool fixing a lot of problems that at best, don't necessarily need use of the pattern to solve, or at worst introducing unneeded abstraction. With the Command pattern, its usage in game development is relatively direct and intuitive, so there's little room for misuse. When applied correctly, it can provide substantial architectural benefits without unnecessary overhead.
+
+Games are inherently about input and behavior. If a player presses a button, that button should do something. If an AI detects something about the current game state, that detection should trigger something. This is where the Command pattern truly shines, as by encapsulating actions as objects, you can represent player input, AI decisions, scripted events, etc. by using the same abstraction. Moving, attacking, and interacting become reusable units of behavior that can be reused by anything anywhere in your project.
+
+# Definition
 
 Well then, what exactly is the command pattern? The GoF's definition is as follows
 
