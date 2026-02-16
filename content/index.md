@@ -1,5 +1,5 @@
 ---
-title: Welcome to my page!
+title: Welcome to my site!
 ---
 Hi, welcome to my personal site/knowledge base/blog/whatever this ends up becoming slowly over time.
 
@@ -11,6 +11,7 @@ This website is hosted on [GitHub](https://github.com) using [GitHub Pages](http
 - Software engineering with an emphasis on making things that work fast and scale efficiently
 - Interested in all things computer science, but here are my favorite interests
 	- #gamedev
+	- #godot 
 	- #selfhosting
 	- #data
 	- #ml
